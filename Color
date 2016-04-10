@@ -25,7 +25,7 @@
              {
             var idx = colors.indexOf(guess_input);
             if (idx < 0)
-                alert("Sorry, I don’t recognize your color.");
+                alert("Sorry, I donâ€™t recognize your color.");
             else if (idx > target)
                 alert("Sorry, Your guess is not correct!\n\n Hint: Your color is alphabetically higher than mine.\n\nPlease Try Again");
             else if (idx < target)
